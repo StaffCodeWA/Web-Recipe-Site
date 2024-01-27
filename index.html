@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Choco Cake Recipe
+        </title>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+        <h1>(The Best Chocolate cake ever!)</h1>
+
+
+
+        <h4>Published: 1/12/2024   Updated: 1/12/2024</h6>
+        
+        <h4 id="latestReview">Latest Review: <em>This text in here should be replaced with whatever the user puts in the "Comments" section of the review options at the bottom of the website!</em></h4>
+        
+        
+        
+        
+        
+        <img src="https://cafedelites.com/wp-content/uploads/2020/02/Chocolate-Cake-IMAGE-69.jpg"/>
+        <img src="https://sallysbakingaddiction.com/wp-content/uploads/2013/04/triple-chocolate-cake-5.jpg"/>
+        <img src="https://sugargeekshow.com/wp-content/uploads/2023/10/easy_chocolate_cake_slice.jpg"/>
+        <img src="https://th.bing.com/th/id/OIP.zCj3AUiDVWWwNsjp55fInQHaHa?w=196&h=196&c=7&r=0&o=5&dpr=1.5&pid=1.7"/>
+        <img src="https://th.bing.com/th/id/OIP.yjWwYRL-2skoEuvBOhjpfQHaE7?w=196&h=131&c=7&r=0&o=5&dpr=1.5&pid=1.7"/>
+        
+        <h2>How Do You Make the Best Chocolate Cake?</h2>
+        <ul id="guidelines">
+            
+            
+        </ul>
+        <li> Make sure to mix everything properly with no lumps.</li>
+        <li>Adjust cooking times based on your oven's power.</li>
+        
+        <h2>The Key Ingredients:</h2>
+        <div>
+          <li> 2 eggs</li>
+          <li> 2 cups of flour</li>
+          <li> 1 cup of sugar</li>
+          <li> 1 teaspoon of vanilla extract</li>
+          <li> 1/2 cup of milk</li>
+          <li> 1 teaspoon of baking powder</li>
+          <li> 1/2 cup unsalted butter</li>
+          <li> 2 tablespoons of unsweetened cocoa powder</li>
+        
+        
+           
+        
+            <div id="ingredientImages">
+                 <!-- images go right here, just like the example below! -->
+                <img id="flourimg" onclick="showFlour()" alt="flour" src="https://bakeitwithlove.com/wp-content/uploads/2022/06/How-To-Make-Bread-Flour-sq.jpg"/>
+          <img src="https://th.bing.com/th?id=OIP.fC952e0xE40mxYi7VU-7ZAHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"/>
+              <img src=" https://th.bing.com/th?id=OIP.cT_52PzxpZSzmPh_FK1cvAHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"/>
+          </div>
+          
+          
+        
+            
+        
+        <h2>Baking Instructions: </h2>
+        <ol id="instructionList">
+          <li> Prehat oven to 350 degrees</li>
+          <li> Grease a 9x9 pan</li>
+          <li> Cream together butter and sugar until no lumps.</li>
+          <li> Add eggs and vanilla extract to the mixture and combine until smooth</li>
+          <li> Add all the dry ingredients until fully combined</li>
+          <li> Add milk slowly until everything is smooth and creamy</li>
+          <li> Pour batter into greased pan</li>
+          <li> Put it into the oven and bake for 22 minutes</li>
+          <li> Pull out when golden brown at the edges and let cool before taking out of the pan</li>
+          <li> Enjoy and share with others!</li>
+             
+        </ol>
+          
+        
+        
+        
+        <!-- DO NOT edit the HTML below, EXCEPT for the button's onclick feature. -->
+        
+        <div id="reviewform">
+            <h2>Leave a Comment/Review</h2>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">5 stars</option>
+                <option value="4">4 stars</option>
+                <option value="3">3 stars</option>
+                <option value="2">2 stars</option>
+                <option value="1">1 star</option>
+            </select>
+        
+            <label for="comment">Your Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required>Put a review in here! The text in here should be shown in the "Latest Review" paragraph at the very top of the website!</textarea>
+        
+            <!-- Make sure to put the right function in the onclick attribute over here! -->
+            <button id="reviewSubmit" onclick="submitReview()" type="submit">Submit Review</button>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

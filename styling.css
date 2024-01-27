@@ -1,0 +1,108 @@
+/* No need to edit CSS here! */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: azure;
+}
+#listDiv {
+    display: flex;
+}
+
+#latestReview {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+img {
+    width: 200px;
+    padding: 10px;
+}
+
+#guidelines {
+    width: 80%
+}
+
+#writtenList  {
+    font-size: 20px;
+}
+
+#writtenList {
+    list-style: none;
+    counter-reset: item;
+}
+#writtenList li {
+    counter-increment: item;
+    margin-bottom: 5px;
+}
+#writtenList li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: lightblue;
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+}
+
+#instructionList  {
+    font-size: 20px;
+}
+
+#instructionList {
+    list-style: none;
+    counter-reset: item;
+}
+#instructionList li {
+    counter-increment: item;
+    margin-bottom: 5px;
+}
+#instructionList li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: lightblue;
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+}
+
+#reviewform {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
